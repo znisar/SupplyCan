@@ -36,20 +36,18 @@
   
   .panel-footer h4 {
     color: #aaa;
-    font-size: 14px;
+    font-size: 12px;
   }
   
   .panel-footer .btn {
-    margin: 15px 0;
+    margin: 12px 0;
     background-color: #f4511e;
     color: #fff;
   } 
-
 }
 
 h1 {
     color: black;
-
 }
 
 

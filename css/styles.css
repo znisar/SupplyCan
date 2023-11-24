@@ -1,6 +1,10 @@
 /* --- Bootstrap ---*/
 .logo {
-    font-size: 200px;
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 100px;
+    
 }
 
 .jumbotron {

@@ -24,7 +24,7 @@
   }
   
   .navbar-default .navbar-toggle {
-    border-color: yellow;
+    border-color: yellow; /*transparent */
     color: #fff !important;
     
     

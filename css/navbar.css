@@ -8,13 +8,17 @@
     line-height: 1 !important;
     letter-spacing: 2px;
     border-radius: 0;
-    color: black;
+    color: blue;
     height: 3%;
     width: 100%;
   }
   
   .navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
+    /* ---color: #fff !important; ---*/
+    color: white !important;
+    background-color: black !important;
+
+
   }
   
   .navbar-nav li a:hover, .navbar-nav li.active a {
@@ -24,11 +28,9 @@
   }
   
   .navbar-default .navbar-toggle {
-    border-color: yellow; /*transparent */
+    border-color: transparent;
     color: #fff !important;
-    
-    
-    
+        
 
   }
   .navbar img {
@@ -36,7 +38,7 @@
     height: 50px; 
     width: 50px;
     margin-top: -15px;
-    margin-left: 10;
+    margin-left: 0;
 
 
   }

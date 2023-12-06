@@ -1,7 +1,7 @@
 /*--- Nav Bar --*/
 .navbar {
     margin-bottom: 0;
-    background-color: #26221b;
+    background-color: black;
     z-index: 9999;
     border: 0;
     font-size: 10px !important;

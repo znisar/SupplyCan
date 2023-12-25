@@ -25,3 +25,7 @@ https://github.com/moneris/
 3. Finish Home page
 4. Google searchable *** 
 5. Add missing parts
+
+# Glyphicons
+See link 
+https://getbootstrap.com/docs/3.4/components/

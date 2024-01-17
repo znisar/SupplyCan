@@ -22,3 +22,9 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+.col-sm-6 {
+    border-radius: 0%;
+    border-width: 0px;
+    
+}

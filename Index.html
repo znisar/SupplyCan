@@ -102,32 +102,35 @@
     <br> <br>
     <div class="container-fluid bg-grey">
         <h2 class="text-center">Contact</h2>
-        <div class="row">
+        <form class="row">
           <div class="col-sm-5">
-            <p>Contact us and we'll get back to you </p>
+            <p>Contact us and we'll get back to you: </p>
             <p><span class="glyphicon glyphicon-map-marker"></span> Toronto, CA</p>
             <p><span class="glyphicon glyphicon-phone"></span> +1 647-201-5070</p>
             <p><span class="glyphicon glyphicon-envelope"></span> SupplyCan@gmail.com</p>
           </div>
-          <div class="col-sm-7">
-            <div class="row">
-              <div class="col-sm-6 form-group">
-                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          <form action="mailto:znisar@hotmail.com" method="post" enctype="text/plain"></form>
+            <div class="col-sm-7">
+              <div class="row">
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                </div>
               </div>
-              <div class="col-sm-6 form-group">
-                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+              <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+              <div class="row">
+                <div class="col-sm-12 form-group">
+                  <button class="btn btn-default pull-right" type="submit" value="Send">Send</button>
+                </div>
               </div>
             </div>
-            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-            <div class="row">
-              <div class="col-sm-12 form-group">
-                <button class="btn btn-default pull-right" type="submit">Send</button>
-              </div>
-            </div>
-          </div>
+          </form>
         </div>
       </div>
     
+
     
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

@@ -8,7 +8,7 @@
     line-height: 1 !important;
     letter-spacing: 2px;
     border-radius: 0;
-    color: blue;
+
     height: 3%;
     width: 100%;
   }
@@ -18,21 +18,25 @@
     color: white !important;
     background-color: black !important;
     width: 50%;
-
+  
 
   }
   
+
   .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #f4511e !important;
     background-color: #ffffff !important;
-    
   }
   
+  /*-- Tyle Hamburger menu --*/
   .navbar-default .navbar-toggle {
     border-color: transparent;
     color: #fff !important;
-      
+    
+    
+    
   }
+
   .navbar img {
     float: left;
     height: 50px; 

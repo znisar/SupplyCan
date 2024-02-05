@@ -23,18 +23,16 @@
   }
   
 
-  .navbar-nav li a:hover, .navbar-nav li.active a {
+  .navbar-nav li a:hover {
     color: #f4511e !important;
-    background-color: #ffffff !important;
+    background-color: #d5c9c9 !important;
+    width: 100%;
   }
   
-  /*-- Tyle Hamburger menu --*/
+  /*-- Dropdown Hamburger menu --*/
   .navbar-default .navbar-toggle {
     border-color: transparent;
-    color: #fff !important;
-    
-    
-    
+    color: #c90a0a !important;
   }
 
   .navbar img {
@@ -43,8 +41,6 @@
     width: 50px;
     margin-top: -15px;
     margin-left: 0;
-
-
   }
  
   

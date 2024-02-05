@@ -9,7 +9,7 @@
     letter-spacing: 3px;
     border-radius: 0;
 
-    height: 2%;
+    height: 2.5%;
     width:100%;
   }
   
@@ -19,14 +19,11 @@
     background-color: black !important;
     width: 100%;
   
-
   }
-  
 
   .navbar-nav li a:hover {
     color: #f4511e !important;
     background-color: #d5c9c9 !important;
-    
 
   }
   
@@ -42,6 +39,11 @@
     width: 50px;
     margin-top: -15px;
     margin-left: 0;
+  }
+
+  .button {
+    float:top;
+    float: right;
   }
  
   
